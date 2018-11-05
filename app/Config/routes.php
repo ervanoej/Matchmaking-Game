@@ -30,7 +30,7 @@
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
-	Router::connect('/matchmaking/*', array('controller' => 'posts', 'action' => 'index'));
+	Router::connect('/matchmaking-game/*', array('controller' => 'posts', 'action' => 'index'));
 
 
 /**
