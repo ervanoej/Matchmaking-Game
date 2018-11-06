@@ -12,10 +12,17 @@
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
 </div>
-<div class="actions">
+<div>
 	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
+	
 
-		<li>Register your details.</li>
-	</ul>
+	Register your details.
+
+	<p>
+	
+	<?php
+		
+		echo $this->Html->link('Cancel', '/posts/visitors', ['class' => 'btn btn-outline-danger waves-effect btn-md']);
+	
+	?>
 </div>
