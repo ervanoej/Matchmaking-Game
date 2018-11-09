@@ -43,7 +43,8 @@ class UsersController extends AppController {
 				$this->Session->setFlash(__('The user has been saved.'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
+				$this->Session->setFlash(__("The admin couldn't be saved. Please, try again and make sure your input was correct."));
+				return $this->redirect(array('action' => 'index'));
 			}
 		}
 	}
@@ -93,7 +94,7 @@ class UsersController extends AppController {
 
     public function logout() {
         Session_destroy();
-        return $this->redirect($this->Auth->logout($this->Auth->redirect(['controller' => 'Users', 'action' => 'login'])));
+        return $this->redirect($this->Auth->redirect(['controller' => 'Users', 'action' => 'login']));
     }
 
 //USER/ADMIN 	END

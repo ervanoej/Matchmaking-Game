@@ -8,7 +8,7 @@
 
 <!-- <div class="container"> -->
 
-	<div class="col-md-6">
+	<div class="col-md-6 animated fadeIn" style="padding-top: 90px">
 
 		<?php 
 			
@@ -17,9 +17,9 @@
 				echo $this->Form->create('User', ['class' => 'text-center border border-light p-5']); 
 			
 			?>
-
-	   <p class="h4 mb-4">Sign in</p>
-
+		<div class="card" style="background-color: blue; margin: 10px">
+	   <p class="h4 mb-4" >Sign in</p>
+	</div>
 	   <div class="md-form">
 
 			<?php 

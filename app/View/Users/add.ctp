@@ -1,4 +1,4 @@
-<div class="users form">
+<!-- <div class="users form"> -->
 
 <?php echo $this->Form->create('User'); ?>
 
@@ -24,7 +24,7 @@
 
 <?php echo $this->Form->end(__('Submit')); ?>
 
-</div>
+
 
 <div>
 
