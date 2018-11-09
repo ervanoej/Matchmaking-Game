@@ -31,20 +31,21 @@
 	      </li>
 
 	      <!-- Dropdown -->
+	      
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
 	          aria-expanded="false">Dropdown</a>
-	        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+	        <ul class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
 	          <a class="dropdown-item" href="#">Action</a>
 	          <a class="dropdown-item" href="#">Another action</a>
 	          <a class="dropdown-item" href="#">Something else here</a>
-	        </div>
+	        </ul>
 	      </li>
 
 	    </ul>
 
 	    <div class="md-form my-0">
-      	  <?php echo $this->Html->link('log Out', '/users/login', ['action' => 'logout', 'class' => 'btn btn-danger waves-effect btn-md my-0']); ?>
+      	  <?php echo $this->form->postlink('log Out', '/users/logout', ['class' => 'btn btn-danger waves-effect btn-md my-0'], __('Are you sure want to log out ? ')); ?>
       </div>
 	    <!-- Links -->
 	  </div>
@@ -94,8 +95,11 @@
 					<td><center><?php echo $user['User']['role']; ?></td>
 
 					<td><center>
+						
 						<?php echo $this->Html->link( 'Edit', 'edit/'.$user["User"]["id"] ,['class' => 'btn btn-primary waves-effect btn-sm']); ?>
+						
 						<?php echo $this->Form->postLink( 'Delete', 'delete/'. $user['User']['id'] , array('class'=>'btn btn-danger waves-effect btn-sm'), __('Are you sure you want to delete # %s?', $user['User']['id'])); ?>
+					
 					</td>
 				</tr>
 			<?php endforeach; ?>

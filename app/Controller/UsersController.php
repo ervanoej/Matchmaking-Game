@@ -93,7 +93,7 @@ class UsersController extends AppController {
 
     public function logout() {
         Session_destroy();
-        return $this->redirect($this->Auth->logout($this->Auth->redirect(array('controller' => 'users', 'action' => 'login'))));
+        return $this->redirect($this->Auth->logout($this->Auth->redirect(['controller' => 'Users', 'action' => 'login'])));
     }
 
 //USER/ADMIN 	END

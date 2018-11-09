@@ -52,10 +52,8 @@
 		    ?>
 
 		    <label for="pass">Password <font color="red">*</font></label>
-
 			
 		</div>
-
 	    
 
 	   <?php 
