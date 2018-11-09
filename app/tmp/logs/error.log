@@ -61784,3 +61784,219 @@ Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.ttf
 Stack Trace:
 #0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2018-11-09 15:51:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:51:06 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:51:06 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:51:06 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.woff
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:51:06 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:51:06 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:51:06 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:16 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:16 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:16 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.woff
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:16 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:16 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:16 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:25 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:25 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:26 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.woff
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:26 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:26 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:55:26 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:56:00 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:56:00 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:56:00 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.woff
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:56:00 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-09 15:56:00 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/font/roboto/Roboto-Light.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
