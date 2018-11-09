@@ -63227,3 +63227,30 @@ Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
 Stack Trace:
 #0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2018-11-10 01:44:27 Error: [Error] Call to undefined method PaginatorComponent::settings()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Event\CakeEventManager.php(243): UsersController->beforeFilter(Object(CakeEvent))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-10 01:48:56 Error: [Error] Call to undefined method UsersController::find()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Event\CakeEventManager.php(243): UsersController->beforeFilter(Object(CakeEvent))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-10 01:49:39 Error: [Error] Call to undefined method UsersController::find()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Event\CakeEventManager.php(243): UsersController->beforeFilter(Object(CakeEvent))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
