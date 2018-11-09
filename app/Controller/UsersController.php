@@ -4,6 +4,10 @@ App::uses('AppController', 'Controller');
 
 class UsersController extends AppController {
 
+	var $helpers = array('Html', 'Form');
+	
+	var $name = 'Users';
+
 
 	public $components = array('Paginator');
 
@@ -13,10 +17,10 @@ class UsersController extends AppController {
         $this->Auth->allow('add', 'logout');
     }
 
-
+// USER/ADMIN 	START
 	public function index() {
-		if (!isset($_SESSION['username'])) {
-			$this->redirect(array('controller' => 'posts', 'action' => 'visitors'));
+		if (!isset($_SESSION['logCheck'])) {
+			$this->redirect(['action' => 'login']);
 		}
 		$this->User->recursive = 0;
 		$this->set('users', $this->Paginator->paginate());
@@ -80,8 +84,8 @@ class UsersController extends AppController {
     public function login() {
         if ($this->request->is('post')) {
             if ($this->Auth->login()) {
-            	$_SESSION['username'] = "WELCOME TO DASHBOARD";
-                return $this->redirect($this->Auth->redirect(array('controller' => 'Posts', 'action' => 'index')));
+            	$_SESSION['logCheck'] = 'login';
+                return $this->redirect($this->Auth->redirect(['action' => 'index']));
             }
             $this->Session->setFlash(__('Invalid username or password, try again'));
         }
@@ -89,6 +93,17 @@ class UsersController extends AppController {
 
     public function logout() {
         Session_destroy();
-        return $this->redirect($this->Auth->logout($this->Auth->redirect(array('controller' => 'Posts', 'action' => 'visitors'))));
+        return $this->redirect($this->Auth->logout($this->Auth->redirect(['action' => 'login'])));
     }
+
+//USER/ADMIN 	END
+
+//PLAYER 	START
+
+  //   public function playerdatalist() {
+  //   	$this->player->recursive = 0;
+		// $this->set('Player', $this->Paginator->paginate());
+  //   }
+
+//PLAYER 	END
 }

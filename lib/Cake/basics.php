@@ -15,7 +15,7 @@
  * @link          https://cakephp.org CakePHP(tm) Project
  * @package       Cake
  * @since         CakePHP(tm) v 0.2.9
- * @license       https://opensource.org/licenses/mit-license.php MIT Licensi
+ * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
 
 /**

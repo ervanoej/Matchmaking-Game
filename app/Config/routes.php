@@ -26,11 +26,11 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	
-	Router::connect('/', array('controller' => 'posts', 'action' => 'index'));
+	Router::connect('/', array('controller' => 'users', 'action' => 'index'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
-	Router::connect('/matchmaking-game/*', array('controller' => 'posts', 'action' => 'index'));
+	Router::connect('/matchmaking-game/*', array('controller' => 'users', 'action' => 'index'));
 
 
 /**
