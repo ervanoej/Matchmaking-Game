@@ -32,10 +32,12 @@
 		echo $this->Html->css('datatables.min');
 
 
-		echo $this->Html->script('bootstrap.min');
 		echo $this->Html->script('jquery-3.3.1.min');
-		echo $this->Html->script('mdb.min');
+		
 		echo $this->Html->script('popper.min');
+
+		echo $this->Html->script('mdb.min');
+		echo $this->Html->script('bootstrap.min');
 		echo $this->Html->script('datatables.min');
 
 		echo $this->fetch('css');
