@@ -1,77 +1,150 @@
-<?php
+<!-- Main navigation -->
+<header>
+<style type="text/css">
+html,
+body,
+header,
+#intro-section {
+  height: 100%;
+}
 
-// include 'Header.ctp';
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  #intro-section {
+    height: 100vh;
+  }
+}
 
-?>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New User'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('Posts list'), array('controller' => 'Posts', 'action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('Logout'), array('action' => 'logout')); ?></li>
-	</ul>
-</div>
+.top-nav-collapse {
+  background-color: #563e91 !important;
+}
 
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
 
-<div class="users index">
-	<h2><?php echo __('Users'); ?></h2>
-	<table id="dtBasicExample" class="table table-striped table-bordered" cellspacing="0" width="100%"s>
-	<thead>
-	<tr>
-			<th><center><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('username'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('password'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('email'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('phone'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('role'); ?></th>
-			<th class="actions"><center><?php echo 'Actions'; ?></th>
-	</tr>
-	</thead>
-	<tbody>
-	<?php foreach ($Players as $player): ?>
-	<tr>
-		<td><center><?php echo $player['Player']['p_ID']; ?>&nbsp;</td>
-		<td><center><?php echo $player['Player']['p_username']; ?>&nbsp;</td>
-		<td><center><?php echo $player['Player']['p_password']; ?>&nbsp;</td>
-		<td><center><?php echo $player['Player']['p_firstname'].$player['Player']['p_lastname']; ?>&nbsp;</td>
-		<td><center><?php echo $player['Player']['phone']; ?>&nbsp;</td>
-		<td><center><?php echo $player['Player']['role']; ?>&nbsp;</td>
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #563e91 !important;
+  }
+}
 
-		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $user['User']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('class' => 'btn btn-info', 'action' => 'delete', $user['User']['id']), array(), __('Are you sure you want to delete # %s?', $user['User']['id'])); ?>
-		</td>
-	</tr>
-<?php endforeach; ?>
-	</tbody>
-	</table>
-	<p>
-	<?php
-	echo $this->Paginator->counter(array(
-	'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
-	));
-	?>	</p>
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+</style>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
-	<div class="paging">
-	<?php
-		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
-		echo $this->Paginator->numbers(array('separator' => ''));
-		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
-	?>
-	</div>
-</div>
+    <div class="container">
 
+      <a class="navbar-brand" href="#">Navbar</a>
 
-<script type="text/javascript">
-  $(document).ready(function () {
-  $('#dtBasicExample').DataTable();
-})
-</script>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-<?php
+        <ul class="navbar-nav mr-auto smooth-scroll">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" data-offset="90">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features" data-offset="90">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services" data-offset="90">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#opinions" data-offset="30">Opinions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team" data-offset="90">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" data-offset="90">Contact</a>
+          </li>
+        </ul>
 
-// include 'Footer.ctp';
+        <!-- Social Icon  -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link">
+              <i class="fa fa-facebook light-green-text-2"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <i class="fa fa-twitter light-green-text-2"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <i class="fa fa-instagram light-green-text-2"></i>
+            </a>
+          </li>
+        </ul>
 
-?>
+      </div>
+
+    </div>
+
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Full Page Intro -->
+  <div id="intro-section" class="view">
+
+    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline
+      autoplay muted loop>
+      <source src="https://mdbootstrap.com/img/video/animation.mp4" type="video/mp4">
+    </video>
+
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+
+      <!-- Content -->
+      <div class="container px-md-3 px-sm-0">
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
+
+            <h3 class="display-3 font-weight-bold white-text mb-0 pt-md-5 pt-5">Matchmaking Games</h3>
+            <hr class="hr-light my-4 w-75">
+            <h4 class="subtext-header mt-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+              deleniti consequuntur nihil.</h4>
+            <a href="#!" class="btn btn-rounded btn-outline-white">
+              <i class="fa fa-home"></i> Visit us
+            </a>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </div>
+      <!-- Content -->
+
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+
+</header>
+<!-- Main navigation -->

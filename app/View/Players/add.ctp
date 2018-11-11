@@ -1,8 +1,6 @@
 <!-- Material form register -->
 <div class="card">
 
-<?php echo $this->Form->create('User'); ?>
-
     <h5 class="card-header info-color white-text text-center py-4">
         <strong>Sign up</strong>
     </h5>
@@ -12,7 +10,7 @@
 
         <!-- Form -->
         <form class="text-center" style="color: #757575;">
-            
+            <?php echo $this->Form->create('Players'); ?>
             <div class="form-row">
                 <div class="col">
                     <!-- First name -->
@@ -36,9 +34,6 @@
                 <?php 
                             echo $this->Form->input('password', ['class' => 'form-control', 'type' => 'password', 'id' => 'materialRegisterFormPassword','aria-describedby' => 'materialRegisterFormPasswordHelpBlock']); 
                 ?>
-                <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-                    At least 8 characters and 1 digit
-                </small>
             </div>
 
             <!-- Phone number -->
@@ -48,7 +43,7 @@
                         ?>
             </div>
 
-            <!-- Newsletter -->
+          <?php echo $this->Form->input('role', array('type'=>'hidden', 'value'=>'players')); ?>
 
             <!-- Sign up button -->
        <?php 
@@ -58,6 +53,7 @@
             echo $this->Form->end(); 
 
         ?> 
+
         </form>
         <!-- Form -->
 
