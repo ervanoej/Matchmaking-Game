@@ -19,12 +19,49 @@ class PlayersController extends AppController {
 
 // USER/ADMIN 	START
 	public function index() {
-		if (!isset($_SESSION['username'])) {
-			$this->redirect(array('controller' => 'posts', 'action' => 'visitors'));
-		}
+	
 		$this->Player->recursive = 0;
 		$this->set('Players', $this->Paginator->paginate());
 	}
+
+
+	public function add() {
+		if ($this->request->is('post')) {
+			$this->Player->create();
+			if ($this->Player->save($this->request->data)) {
+				// $this->Session->setFlash(__('The PLAYER has been saved.'));
+				return $this->redirect(array('controller'=>'Players','action' => 'index'));
+			} else {
+				$this->Session->setFlash(__("The admin couldn't be saved. Please, try again and make sure your input was correct."));
+				return $this->redirect(array('controller'=>'Players','action' => 'index'));
+			}
+		}
+	}
+
+	  public function login() {
+        if ($this->request->is('POST')) {
+            if ($this->Auth->login()) {
+            	$_SESSION['logCheckPlayer'] = 'login';
+                return $this->redirect($this->Auth->redirect(['controller'=>'players','action' => 'index']));
+            }
+            else {
+            	// $this->Session->setFlash(__('Invalid username or password, try again'));
+            	return $this->redirect($this->Auth->redirect(['controller'=>'players','action' => 'loginPlayer']));
+            }
+            
+
+        }
+    }
+
+     public function logout() {
+        Session_destroy();
+        return $this->redirect($this->Auth->redirect(['controller' => 'Players', 'action' => 'index']));
+    }
+
+
+	// public function home() {
+
+	// }
 
 
 	// public function view($id = null) {
@@ -100,10 +137,10 @@ class PlayersController extends AppController {
 
 //PLAYER 	START
 
-    public function playerdatalist() {
-    	$this->Player->recursive = 0;
-		$this->set('Players', $this->Paginator->paginate());
-    }
+  //   public function playerdatalist() {
+  //   	$this->Player->recursive = 0;
+		// $this->set('Players', $this->Paginator->paginate());
+  //   }
 
 //PLAYER 	END
 }

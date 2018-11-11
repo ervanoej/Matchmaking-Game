@@ -1,3 +1,8 @@
+<!-- <?php
+if (!isset($_SESSION['logCheck'])) {
+			$this->redirect(['action' => 'login']);
+		}
+?> -->
 <!-- HEADER -->
 <div id="header">
 	

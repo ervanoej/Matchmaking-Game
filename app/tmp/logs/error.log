@@ -63254,3 +63254,369 @@ Stack Trace:
 #3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2018-11-11 22:16:24 Error: [MissingActionException] Action PlayersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'home',
+)
+Request URL: /Matchmaking-Game/players/home
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 22:16:45 Error: [MissingViewException] View file "Players\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players\\home.ctp',
+)
+Request URL: /Matchmaking-Game/players/home
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(470): View->_getViewFileName('Players\\home')
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-11 22:16:54 Error: [MissingActionException] Action PlayersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'home',
+)
+Request URL: /Matchmaking-Game/players/home
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 22:17:21 Error: [MissingActionException] Action PlayersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'home',
+)
+Request URL: /Matchmaking-Game/players/home
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 23:23:01 Error: [MissingActionException] Action PlayersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'login',
+)
+Request URL: /Matchmaking-Game/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 23:23:08 Error: [MissingViewException] View file "Players\login_player.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players\\login_player.ctp',
+)
+Request URL: /Matchmaking-Game/players/loginPlayer
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(470): View->_getViewFileName('Players\\login_p...')
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-11 23:23:24 Error: [MissingViewException] View file "Players\login_player.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players\\login_player.ctp',
+)
+Request URL: /Matchmaking-Game/players/loginPlayer
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(470): View->_getViewFileName('Players\\login_p...')
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-11 23:23:44 Error: [MissingViewException] View file "Players\login_player.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players\\login_player.ctp',
+)
+Request URL: /Matchmaking-Game/players/loginPlayer
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(470): View->_getViewFileName('Players\\login_p...')
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-11 23:24:18 Error: [MissingViewException] View file "Players\login_player.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players\\login_player.ctp',
+)
+Request URL: /Matchmaking-Game/players/loginPlayer
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(470): View->_getViewFileName('Players\\login_p...')
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-11 23:24:36 Error: [MissingViewException] View file "Players\login_player.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players\\login_player.ctp',
+)
+Request URL: /Matchmaking-Game/players/loginPlayer
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(470): View->_getViewFileName('Players\\login_p...')
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-11 23:25:29 Error: [MissingViewException] View file "Players\login_player.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players\\login_player.ctp',
+)
+Request URL: /Matchmaking-Game/players/loginPlayer
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(470): View->_getViewFileName('Players\\login_p...')
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-11 23:25:55 Error: [Error] Call to undefined method AuthComponent::loginPlayer()
+Request URL: /Matchmaking-Game/players/loginPlayer
+Stack Trace:
+#0 [internal function]: PlayersController->loginPlayer()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-11-11 23:27:00 Error: [MissingActionException] Action PlayersController::login_Player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'login_Player',
+)
+Request URL: /Matchmaking-Game/players/login_Player
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 23:27:46 Error: [MissingActionException] Action PlayersController::login_Player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'login_Player',
+)
+Request URL: /Matchmaking-Game/players/login_Player
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 23:30:04 Error: [MissingActionException] Action PlayersController::login_Player() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'login_Player',
+)
+Request URL: /Matchmaking-Game/players/login_Player
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 23:30:09 Error: [ArgumentCountError] Too few arguments to function App::uses(), 1 passed in C:\xampp\htdocs\Matchmaking-Game\app\Model\User.php on line 4 and exactly 2 expected
+Request URL: /Matchmaking-Game/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\Model\User.php(4): App::uses('SimplePasswordH...')
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Core\App.php(567): include('C:\\xampp\\htdocs...')
+#2 [internal function]: App::load('User')
+#3 [internal function]: spl_autoload_call('User')
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Utility\ClassRegistry.php(146): class_exists('User')
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('User')
+#6 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('User')
+#7 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('User', 'key')
+#8 C:\xampp\htdocs\Matchmaking-Game\app\View\Users\login.ctp(17): FormHelper->create('User', Array)
+#9 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2018-11-11 23:30:55 Error: [MissingActionException] Action UsersController::loginPlayer() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'loginPlayer',
+)
+Request URL: /Matchmaking-Game/users/loginPlayer
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 23:31:24 Error: [MissingActionException] Action UsersController::loginPlayer() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'loginPlayer',
+)
+Request URL: /Matchmaking-Game/users/loginPlayer
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 23:36:28 Error: [MissingActionException] Action UsersController::x() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'x',
+)
+Request URL: /Matchmaking-Game/users/x
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 23:40:27 Error: [MissingActionException] Action PlayersController::loginPlayer() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'loginPlayer',
+)
+Request URL: /Matchmaking-Game/players/loginPlayer
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-11 23:50:27 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/users/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:50:30 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/users/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:50:33 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:50:40 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:50:41 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:50:47 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:51:55 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:51:59 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:52:24 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:53:25 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:55:02 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-11-11 23:55:08 Error: [Error] Call to undefined method View::redirect()
+Request URL: /Matchmaking-Game/users
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(971): include()
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}

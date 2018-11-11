@@ -1,23 +1,16 @@
 <center>
 
-	<?php
+<!-- 	<?php
 
 			echo $this->Session->flash('auth');
 
-	?>
+	?> -->
 
-<!-- <div class="container"> -->
+
 
 	<div class="col-md-6 animated fadeIn" style="padding-top: 90px">
 
-		<?php 
-			
-				// echo $this->Session->flash('auth');
-
-				echo $this->Form->create('User', ['class' => 'text-center border border-light p-5']); 
-			
-			?>
-		<div class="card" style="background-color: blue; margin: 10px">
+		<div class="card" style=" margin: 10px">
 	   <p class="h4 mb-4" >Sign in</p>
 	</div>
 	   <div class="md-form">
