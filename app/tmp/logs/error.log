@@ -63620,3 +63620,564 @@ Stack Trace:
 #5 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #6 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #7 {main}
+2018-11-12 00:05:03 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 00:05:17 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 00:06:39 Error: [ArgumentCountError] Too few arguments to function Dispatcher::dispatch(), 1 passed in C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php on line 116 and at least 2 expected
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(116): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2018-11-12 00:06:51 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 00:09:29 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 11:01:13 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/Players
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 11:08:14 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Request URL: /Matchmaking-Game/players
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 11:08:26 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Request URL: /Matchmaking-Game/players
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:39:36 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:40:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:40:52 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:40:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:41:36 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:41:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:41:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:41:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:41:46 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:41:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:42:18 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:42:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:43:03 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:43:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:43:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:43:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:43:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:43:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:44:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:44:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:44:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:44:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:45:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:45:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:46:01 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/Players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:46:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:46:44 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/Players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:46:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:49:36 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/Players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 13:49:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:49:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:49:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:49:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:49:48 Error: [MissingActionException] Action PlayersController::Players() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'Players',
+)
+Request URL: /Matchmaking-Game/players/Players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-12 13:49:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:50:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:50:26 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:50:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:50:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:50:43 Error: [MissingActionException] Action PlayersController::players() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'players',
+)
+Request URL: /Matchmaking-Game/players/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-11-12 13:50:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:50:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:50:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:51:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 13:51:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 14:06:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 14:06:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 14:06:53 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /Matchmaking-Game/players/login
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\Matchmaking-Game\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-11-12 14:06:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 14:07:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 14:07:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 14:07:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-12 14:07:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Matchmaking-Game/js/bootstrap.min.js.map
+Stack Trace:
+#0 C:\xampp\htdocs\Matchmaking-Game\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

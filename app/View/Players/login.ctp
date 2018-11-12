@@ -4,7 +4,7 @@
                   <?php 
       
                     // echo $this->fetch('login'); 
-                    echo $this->Form->create('Player'); 
+                    echo $this->Form->create('Player', 'url' => ['controller' => 'players']); 
                   
                   ?>
 
@@ -14,7 +14,7 @@
                     echo $this->Form->control('p_username', ['class' => 'form-control', 'type' => 'text', 'id' => 'username']); 
                   ?>
 
-                  <label for="username">Username <font color="red">*</font></label>
+                  <label for="username">Username <!-- <font color="red">*</font> --></label>
               </div>
 
               <div class="md-form form-sm mb-4">
@@ -26,7 +26,7 @@
                 
                 ?>
 
-                <label for="pass">Password <font color="red">*</font></label>
+                <label for="pass">Password<!--  <font color="red">*</font> --></label>
               </div>
               <div class="text-center mt-2">
                  <?php 

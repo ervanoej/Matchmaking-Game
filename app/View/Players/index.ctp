@@ -38,6 +38,10 @@
 
 	    </ul>
 
+      <?php echo $_SESSION['logCheck']; 
+            echo $_SESSION['logCheckPlayer'];
+       ?>
+
 	    <div class="md-form my-0">
       	  <?php
 	      	  
@@ -66,19 +70,25 @@
 </div>
 
 <!-- /HEADER -->
-
-<!-- 
+ <div class="container-fluid">
 <div class="users index">
-	<h2><?php echo __('Users'); ?></h2>
+	<p>
+
+<blockquote class="blockquote bq-info animated fadeIn">
+  <p class="bq-title"><i class="fa fa-user"> Players datalist</i></p>
+  <p>All registered player will appeared on this datatables
+  </p>
+</blockquote>
+  <h2></h2>
 	<table id="dtBasicExample" class="table table-striped table-bordered" cellspacing="0" width="100%"s>
 	<thead>
 	<tr>
-			<th><center><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('username'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('password'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('email'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('phone'); ?></th>
-			<th><center><?php echo $this->Paginator->sort('role'); ?></th>
+			<th><center><?php echo ('id'); ?></th>
+			<th><center><?php echo ('username'); ?></th>
+			<th><center><?php echo ('password'); ?></th>
+			<th><center><?php echo ('name'); ?></th>
+			<th><center><?php echo ('birthday'); ?></th>
+			<!-- <th><center><?php echo $this->Paginator->sort('role'); ?></th> -->
 			<th class="actions"><center><?php echo 'Actions'; ?></th>
 	</tr>
 	</thead>
@@ -89,44 +99,34 @@
 		<td><center><?php echo $player['Player']['p_username']; ?>&nbsp;</td>
 		<td><center><?php echo $player['Player']['p_password']; ?>&nbsp;</td>
 		<td><center><?php echo $player['Player']['p_firstname'].$player['Player']['p_lastname']; ?>&nbsp;</td>
-		<td><center><?php echo $player['Player']['phone']; ?>&nbsp;</td>
-		<td><center><?php echo $player['Player']['role']; ?>&nbsp;</td>
+		<td><center><?php echo $player['Player']['p_birthday']; ?>&nbsp;</td>
+	<!-- 	<td><center><?php echo $player['Player']['role']; ?>&nbsp;</td> -->
 
-		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $user['User']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('class' => 'btn btn-info', 'action' => 'delete', $user['User']['id']), array(), __('Are you sure you want to delete # %s?', $user['User']['id'])); ?>
+		<td class="actions"><center>
+			<?php echo $this->Html->link( 'Edit', array('action' => 'edit', $player['Player']['p_ID']), ['class' => 'btn btn-primary waves-effect btn-sm'] ); ?>
+			<?php echo $this->Form->postLink( 'Delete', array('class' => 'btn btn-info', 'action' => 'delete', $player['Player']['p_ID']), array('class' => 'btn btn-danger waves-effect btn-sm'), __('Are you sure you want to delete # %s?', $player['Player']['p_ID'])); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>
 	</tbody>
 	</table>
-	<p>
-	<?php
-	echo $this->Paginator->counter(array(
-	'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
-	));
-	?>	</p>
 
-	<div class="paging">
-	<?php
-		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
-		echo $this->Paginator->numbers(array('separator' => ''));
-		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
-	?>
-	</div>
 </div>
-
+</div>
 
 <script type="text/javascript">
   $(document).ready(function () {
   $('#dtBasicExample').DataTable();
 })
-</script> -->
+</script>
 
 
 
-<div class="container-fluid"> INI LANDING PAGE </div>
+<div class="container-fluid">
+<p>
+  <?php print_r($_SESSION); ?>
+
+</div>
 
 
 
@@ -162,8 +162,8 @@
 
                   <?php 
       
-                    // echo $this->fetch('login'); 
-                    echo $this->Form->create('Player', array('url' => array('controller' => 'Players', 'action' => 'login'))); 
+                    echo $this->fetch('login'); 
+                    echo $this->Form->create('Player', ['url' => ['controller' => 'Players', 'action' => 'login']]); 
                   
                   ?>
 
@@ -173,7 +173,7 @@
                     echo $this->Form->control('p_username', ['class' => 'form-control', 'type' => 'text', 'id' => 'username']); 
                   ?>
 
-                  <label for="username">Username <font color="red">*</font></label>
+                  <label for="username">Username<!--  <font color="red">*</font> --></label>
               </div>
 
               <div class="md-form form-sm mb-4">
@@ -185,7 +185,7 @@
                 
                 ?>
 
-                <label for="pass">Password <font color="red">*</font></label>
+                <label for="pass">Password<!--  <font color="red">*</font> --></label>
               </div>
               <div class="text-center mt-2">
                  <?php 

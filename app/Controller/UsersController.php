@@ -20,7 +20,7 @@ class UsersController extends AppController {
 
 // USER/ADMIN 	START
 	public function index() {
-		if (!isset($_SESSION['logCheck'])) {
+		if ($_SESSION['logCheck'] != 'admin') {
 			$this->redirect(['action' => 'login']);
 		}
 		$this->User->recursive = 0;
@@ -86,7 +86,7 @@ class UsersController extends AppController {
     public function login() {
         if ($this->request->is('post')) {
             if ($this->Auth->login()) {
-            	$_SESSION['logCheck'] = 'login';
+            	$_SESSION['logCheck'] = 'admin';
                 return $this->redirect($this->Auth->redirect(['action' => 'index']));
             }
             $this->Session->setFlash(__('Invalid username or password, try again'));

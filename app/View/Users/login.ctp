@@ -1,10 +1,10 @@
 <center>
 
-<!-- 	<?php
+<?php
 
-			echo $this->Session->flash('auth');
+			//echo $this->Session->flash('auth');
 
-	?> -->
+	?> 
 
 
 
@@ -30,7 +30,7 @@
 		    	echo $this->Form->control('username', ['class' => 'form-control', 'type' => 'text', 'id' => 'username']); 
 		    ?>
 
-		    <label for="username">Username <font color="red">*</font></label>
+		    <label for="username">Username<!--  <font color="red">*</font> --></label>
 
 		</div>
 
@@ -44,7 +44,7 @@
 		    
 		    ?>
 
-		    <label for="pass">Password <font color="red">*</font></label>
+		    <label for="pass">Password<!--  <font color="red">*</font> --></label>
 			
 		</div>
 	    

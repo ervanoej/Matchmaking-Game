@@ -12,14 +12,16 @@ class PlayersController extends AppController {
 	public $components = array('Paginator');
 
 
-    // public function beforeFilter() {
-    //     parent::beforeFilter();
-    //     $this->Auth->allow('add', 'logout');
-    // }
+    public function beforeFilter() {
+        parent::beforeFilter();
+        $this->Auth->allow('add', 'logout');
+    }
 
 // USER/ADMIN 	START
 	public function index() {
-	
+		// if ($_SESSION['logCheckPlayer'] != 'player') {
+		// 	return $this->redirect('/players/login');
+		// }
 		$this->Player->recursive = 0;
 		$this->set('Players', $this->Paginator->paginate());
 	}
@@ -41,12 +43,12 @@ class PlayersController extends AppController {
 	  public function login() {
         if ($this->request->is('POST')) {
             if ($this->Auth->login()) {
-            	$_SESSION['logCheckPlayer'] = 'login';
-                return $this->redirect($this->Auth->redirect(['controller'=>'players','action' => 'index']));
+            	$_SESSION['logCheckPlayer'] = 'player';
+                return $this->redirect($this->Auth->redirect(['action' => 'index']));
             }
             else {
             	// $this->Session->setFlash(__('Invalid username or password, try again'));
-            	return $this->redirect($this->Auth->redirect(['controller'=>'players','action' => 'loginPlayer']));
+            	return $this->redirect($this->Auth->redirect(['controller' => 'players','action' => 'login']));
             }
             
 
