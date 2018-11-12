@@ -8,6 +8,7 @@ App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
  */
 class User extends AppModel {
 
+
     public $validate = array(
         'username' => array(
             'required' => array(
@@ -45,6 +46,7 @@ class User extends AppModel {
             )
         )
     );
+
 
     public function beforeSave($options = array()) {
         if (isset($this->data[$this->alias]['password'])) {

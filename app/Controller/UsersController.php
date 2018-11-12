@@ -14,12 +14,17 @@ class UsersController extends AppController {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        $this->Auth->allow('add', 'logout');
+
+        //$this->Auth->allow('add', 'logout');
+        $this->Paginator->settings=['limit' => 10000 ];
+
     }
 
 // USER/ADMIN 	START
 	public function index() {
-		if (!isset($_SESSION['logCheck'])) {
+
+		if ($_SESSION['logCheck'] != 'admin') {
+
 			$this->redirect(['action' => 'login']);
 		}
 		$this->User->recursive = 0;
@@ -43,7 +48,10 @@ class UsersController extends AppController {
 				$this->Session->setFlash(__('The user has been saved.'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
+
+				$this->Session->setFlash(__("The admin couldn't be saved. Please, try again and make sure your input was correct."));
+				return $this->redirect(array('action' => 'index'));
+
 			}
 		}
 	}
@@ -84,7 +92,9 @@ class UsersController extends AppController {
     public function login() {
         if ($this->request->is('post')) {
             if ($this->Auth->login()) {
-            	$_SESSION['logCheck'] = 'login';
+
+            	$_SESSION['logCheck'] = 'admin';
+
                 return $this->redirect($this->Auth->redirect(['action' => 'index']));
             }
             $this->Session->setFlash(__('Invalid username or password, try again'));
@@ -93,7 +103,9 @@ class UsersController extends AppController {
 
     public function logout() {
         Session_destroy();
-        return $this->redirect($this->Auth->logout($this->Auth->redirect(['action' => 'login'])));
+
+        return $this->redirect($this->Auth->redirect(['controller' => 'Users', 'action' => 'login']));
+
     }
 
 //USER/ADMIN 	END

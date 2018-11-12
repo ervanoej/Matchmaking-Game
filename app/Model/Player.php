@@ -8,6 +8,7 @@ App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
  */
 class Player extends AppModel {
 
+
 public $validate = array(
         'username' => array(
             'required' => array(
@@ -55,6 +56,7 @@ public $validate = array(
         }
         return true;
     }
+
    
 
 }

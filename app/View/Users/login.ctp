@@ -1,24 +1,19 @@
 <center>
 
-	<?php
 
-			echo $this->Session->flash('auth');
+<?php
 
-	?>
+			//echo $this->Session->flash('auth');
 
-<!-- <div class="container"> -->
+	?> 
 
-	<div class="col-md-6">
 
-		<?php 
-			
-				// echo $this->Session->flash('auth');
 
-				echo $this->Form->create('User', ['class' => 'text-center border border-light p-5']); 
-			
-			?>
+	<div class="col-md-6 animated fadeIn" style="padding-top: 90px">
 
-	   <p class="h4 mb-4">Sign in</p>
+		<div class="card" style=" margin: 10px">
+	   <p class="h4 mb-4" >Sign in</p>
+	</div>
 
 	   <div class="md-form">
 
@@ -37,7 +32,9 @@
 		    	echo $this->Form->control('username', ['class' => 'form-control', 'type' => 'text', 'id' => 'username']); 
 		    ?>
 
-		    <label for="username">Username <font color="red">*</font></label>
+
+		    <label for="username">Username<!--  <font color="red">*</font> --></label>
+
 
 		</div>
 
@@ -51,7 +48,9 @@
 		    
 		    ?>
 
-		    <label for="pass">Password <font color="red">*</font></label>
+
+		    <label for="pass">Password<!--  <font color="red">*</font> --></label>
+
 			
 		</div>
 	    
